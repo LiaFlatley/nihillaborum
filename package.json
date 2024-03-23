@@ -1,0 +1,25 @@
+{
+  "name": "nihillaborum",
+  "version": "1.0.0",
+  "description": "An addon for arc-web3 which actually lets you sign transactions.",
+  "keywords": [
+    "expedita",
+    "aperiam"
+  ],
+  "license": "CC-BY-SA-4.0",
+  "author": "LilianaToy",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LiaFlatley/nihillaborum.git"
+  },
+  "peerDependencies": {
+    "buffer-lite": "^0.1.4"
+  },
+  "dependencies": {
+    "@aritz-cracker/cryptowasm": "^1.18.0",
+    "keccak-wasm": "^0.10.0",
+    "hdkey-wasm": "^1.2.0",
+    "bip39-wasm": "^2.6.0"
+  }
+}
